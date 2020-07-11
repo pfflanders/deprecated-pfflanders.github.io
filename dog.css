@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 html {
-	background-color: #636e72;
+	background-color: #636992;
 }
 
 body {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #name {
 	font-size: 400%;
-	color: #55efc4;
+	color: #509fc4;
 	text-align: center;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .child:hover {
-	background-color: #FF0090;
+	background-color: #000090;
 }
 
 /*
