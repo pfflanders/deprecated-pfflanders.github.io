@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 html {
-	background-color: #636e72;
+	background-color: #708090;
 }
 
 body {
@@ -19,20 +19,20 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-flow: nowrap;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 80vh;
     align-items: center;
     justify-content: center;
 }
 
 #name {
-	font-size: 400%;
+	font-size: 200%;
 	color: #55efc4;
 	text-align: center;
 }
 
 .child {
 	font-size: 120%;
-	padding: 20px;
+	padding: 10px;
 	margin: 15px;
 	color: #FBEEE4;
 	border-radius: 25px;
@@ -40,53 +40,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .child:hover {
 	background-color: #FF0090;
-}
-
-/*
-
-* {
-	box-sizing: border-box;
-}
-
-
-.card {
-	margin: 20px;
-	padding: 15px;
-	border: 1px solid lightgrey;
-}
-
-.mainsubject {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
-	font-weight: 600;
-	border: 10px solid grey;
-	padding: 20px;
-	max-width: 800px;
-	background-color: white;
-}
-
-.
-
-header {
-	color: blue;
-	font-weight: 500;
-	box-sizing: border-box;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background-color: white;
-	position: fixed;
-	background-color: #FFDAB9;
-	border: 2px solid black;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-.card {
-	margin: 20px;
-	padding: 15px;
-	border: 1px solid lightgrey;
 }
