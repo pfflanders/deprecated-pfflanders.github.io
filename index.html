@@ -2,14 +2,20 @@
 <html lang="en">
 	<head>
 		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width">
+		<title>Flanders, Peter F.</title>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<script src="https://unpkg.com/d3@3/d3.min.js"></script>
+		<script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
 	</head>
 
-	<body class="text-center">
+	<body class="text-center" style="margin: 0ps;">
 		<div style='display: flex; flex-flow: row wrap; width: 100%; align-items: center; justify-content: space-around;'>
 			<div class="mycontainer container-fluid">
 				<div class="child jumbotron">
 					<h1 id="name">Peter Flanders</h1>
-					<p id="name">Refresh to randomize CSS</h1>
+					<p id="name" style="margin-bottom: 0">Refresh to randomize CSS</h1>
 				</div>
 				<div class="font-weight-bold row">
 					<div class="child col-md">
@@ -18,6 +24,16 @@
 					
 					<div class="child col-md">
 						<p>Curious about Probability, Programming, and other Math</p>
+						<p> When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+						
+						functionPlot({
+						  target: '#quadratic',
+						  data: [{
+							fn: 'x^2'
+						  }]
+						})
+  
+  
 					</div>
 					
 					<div class="child col-md">
@@ -30,12 +46,10 @@
 				</div>
 			</div>
 			<div class="container-fluid">
-				<img src='https://media-exp1.licdn.com/dms/image/C5603AQHp4BBOXyGHAg/profile-displayphoto-shrink_400_400/0?e=1599696000&v=beta&t=FoqSQLUai2zJhYDa7Upskuf6T25nPHSu8QFXGHnea9s' alt=' 
-				Peter Flanders Mug Shot' width = '300' height = '300'/>
+				<img src='jessieandme.jpg' alt='A picture of Jessie and Peter' width = '300' height = '300'/>
 			</div>
 			<div class="container-fluid">
-				<img src='hazel.jpg' alt=' 
-				My cute dog hazel' width = '300' height = '300'/>
+				<img src='hazel.jpg' alt='My cute dog hazel' width = '300' height = '300'/>
 			</div>
 		</div>
 	</body>
